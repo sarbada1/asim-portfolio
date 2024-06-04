@@ -124,4 +124,14 @@ $(document).ready(function(){
         });
 
 });	
+
+(function() {
+	const navbarMenu = document.querySelector('.navbar-menu');
+	const menuBar = document.getElementById('menubar');
+  
+	menuBar.addEventListener('click', function() {
+	  navbarMenu.classList.toggle('active'); // Toggle active class for menu visibility
+	});
+  })();
+  
 	
